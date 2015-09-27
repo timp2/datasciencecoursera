@@ -3,26 +3,20 @@
 The data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip was processed.
 
 The following files were used...
-    File                              | Description
-    -------------------------------------------------------
-    UCI HAR Dataset/activity_labels.txt | Mapping of activity ids to activity names.
-    UCI HAR Dataset/test/subject_test.txt | List of subject ids per row in the test data.
-    UCI HAR Dataset/test/X_test.txt | List of measurements per subject and activity for test data.
-    UCI HAR Dataset/test/y_test.txt | List of activity ids per row in the test data.
-    UCI HAR Dataset/train/subject_train.txt | List of subject ids per row in the training data.
-    UCI HAR Dataset/train/X_train.txt | List of measurements per subject and activity for training data.
-    UCI HAR Dataset/train/y_train.txt | List of activity ids per row in the training data.
+    - UCI HAR Dataset/activity_labels.txt - Mapping of activity ids to activity names.
+    - UCI HAR Dataset/test/subject_test.txt - List of subject ids per row in the test data.
+    - UCI HAR Dataset/test/X_test.txt - List of measurements per subject and activity for test data.
+    - UCI HAR Dataset/test/y_test.txt - List of activity ids per row in the test data.
+    - UCI HAR Dataset/train/subject_train.txt - List of subject ids per row in the training data.
+    - UCI HAR Dataset/train/X_train.txt - List of measurements per subject and activity for training data.
+    - UCI HAR Dataset/train/y_train.txt - List of activity ids per row in the training data.
 
 All columns from activity_labels.txt were used...
-   Column | Description | Data type
-   -------------------------------
-   1 | Activity ID | integer
-   2 | Activity name | string
+   - 1 - Activity ID (integer)
+   - 2 - Activity name (string)
    
 All columns from subject_test.txt and subject_train.txt were used...
-   Column | Description | Data type
-   -------------------------------
-    1 | Subject ID | integer
+    - 1 - Subject ID (integer)
 
 The following columns from X_test.txt and X_train.txt were used...
     1 - Mean body acceleration on the X axis (float)
